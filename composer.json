@@ -1,0 +1,15 @@
+{
+  "name": "crystalapps/crystal-ecommerce",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "crystal",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    "smarty/smarty": "~3.1.35"
+  }
+}
