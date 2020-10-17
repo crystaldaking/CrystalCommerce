@@ -1,29 +1,13 @@
 <html>
-    <head>
-        <title>{$pageTitle}</title>
-        <link rel="stylesheet" href="{$templateWebPath}css/main.css" type="text/css">
-    </head>
+    {include file='chunks/head.tpl'}
 <body>
-    <div id="header">
-        <h1>My commerce</h1>
-    </div>
+   {include file='chunks/header.tpl'}
 
-    <div id="leftColumn">
-        <div id="leftMenu">
-            <div class="menuCaption">Меню:</div>
-            1<br>
-            2<br>
-            3<br>
-        </div>
-    </div>
+   {include file='chunks/leftColumn.tpl'}
 
-    <div id="centerColumn">
-        Center block
-    </div>
+   {include file='chunks/content.tpl'}
 
-    <div id="footer">
-        Footer
-    </div>
+   {include file='chunks/footer.tpl'}
 
 </body>
 </html>

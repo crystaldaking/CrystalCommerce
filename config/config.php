@@ -25,7 +25,7 @@ define('TemplatePostfix',".tpl");
 /**
  * Define web path
  */
-define('TemplateWebPath',"/templates/{$template}/");
+define('TemplateWebPath',"../public/templates/{$template}/");
 
 /**
  * Init Smarty
